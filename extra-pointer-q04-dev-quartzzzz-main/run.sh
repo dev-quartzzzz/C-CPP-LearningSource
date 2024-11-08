@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc main.c -o main
+gcc main.c -o main -lm
 
 for filename in ./testcases/*.in; do
     echo "Running Case $(basename "$filename" .in) ..."
